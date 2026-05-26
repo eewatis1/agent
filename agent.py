@@ -7,7 +7,7 @@ from google import genai
 from PIL import Image
 
 # 1. Сюди вставляєш свій скопійований ключ
-API_KEY = "AIzaSyBGacaegW9q26-aUDx5Og5IXezUIP166BA"
+API_KEY = ""
 client = genai.Client(api_key=API_KEY)
 
 class AssistantModal:
